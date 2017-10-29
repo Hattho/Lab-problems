@@ -1,0 +1,7 @@
+a) i este  crescut de la 1 pana la 39 cu 1 (i<40) si de atatea ori se fiseaza si * =>39 de *
+
+b) i este crescut de la 1 pana la 40 (i!=40, 37+3=40-conditia nu se mai indeplineste si se iese din while) din 3 in 3 => 14*
+
+c)i este crescut la fiecare pas cu 2, dar nu va ajunge niciodata sa aiba valoarea 40, prin urmare se va intra intr-o bucla infinita in care se va afiza *.
+
+d)i este 1 j ramane tot un si se afiseaza 1*. i devine apoi 16 si pentru j de la 1 la 16 se afiseaza 16*. i devine apoi 31 si pentru j de la 1 la 31 se mai afiseaza 31* => in total 48* 
