@@ -8,7 +8,7 @@ typedef struct list{
 
 } list;
 
-void merge(list* cursor1, list* cursor2){ ///list* primp3
+void merge(list* cursor1, list* cursor2){
 
     list *sfarsit3, *pnou3, *primp3;
 
@@ -119,7 +119,7 @@ int main () {
     pnou = primp;
     pnou2 = primp2;
 
-   /// list* primp3 =NULL;
+
 
     merge(pnou, pnou2);
 
