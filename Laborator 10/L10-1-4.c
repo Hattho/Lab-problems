@@ -22,7 +22,7 @@ int main () {
 
     if(f == NULL){
         printf("File does not exist");
-        return;
+        return 0;
     }
 
 
