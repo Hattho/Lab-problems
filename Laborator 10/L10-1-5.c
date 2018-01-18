@@ -3,7 +3,7 @@
 #include <string.h>
 FILE* f;
 
-void    LongestLineLength (char* file){
+void    LongestLineLength (FILE* f){
     char s[100001];
     char t;
     int LongestLine = 0;
@@ -28,9 +28,8 @@ int main () {
         printf("nu exista");
     }
 
-    char file[30] = "file2.txt";
 
-    LongestLineLength (file);
+    LongestLineLength (f);
 
     return 0;
 }
