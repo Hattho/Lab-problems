@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 FILE* f;
-void   CharacterCounter(char* file){
+void   CharacterCounter(FILE * f){
 
 
     int nr_caractere = 0;
@@ -26,9 +26,7 @@ int main () {
     }
 
 
-    char file[30] = "file2.txt";
-
-    CharacterCounter(file);
+    CharacterCounter(f);
 
 
     return 0;
